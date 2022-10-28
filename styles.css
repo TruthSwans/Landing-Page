@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant');
+
+body {
+    font-family: Cormorant, 'Courier New', Courier, monospace, sans-serif;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, 
+.footer {
+    background-color: #F9E79F;
+    font-size: 24px;
+    color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Cormorant;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-main {
+    background-color: #F9E79F;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+
+.hero-main-left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    font-family: Cormorant;
+}
+
+img {
+    max-width: 450px;
+}
+
+.hero-secondary {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #e5e7eb;
+}
+
+.review-text,
+.reviewer {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.reviewer {
+    display: flex;
+    font-weight: bold;
+    margin-left: auto;
+}
+
