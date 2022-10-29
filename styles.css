@@ -15,16 +15,16 @@ body {
     background-color: #F9E79F;
     font-size: 24px;
     color: black;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -39,6 +39,7 @@ ul {
     display: flex;
     margin: 0px;
     gap: 25px;
+    padding: 0;
 }
 
 a {
@@ -47,7 +48,7 @@ a {
 }
 
 .hero-main {
-    background-color: #F9E79F;
+    background-color: white;
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
@@ -55,10 +56,15 @@ a {
     padding-top: 25px;
     padding-bottom: 25px;
     justify-content: space-between;
+    border: 4px #F9E79F solid;
+    border-radius: 8px;
+    margin: 25px;
+    height: 100vh;
 }
 
 .hero-main-left {
     display: flex;
+    flex: auto;
     flex-direction: column;
     padding: 10px;
     flex-wrap: wrap;
@@ -77,7 +83,7 @@ img {
 }
 
 .hero-secondary {
-    padding-top: 25px;
+    padding-top: 0px;
     padding-bottom: 25px;
     padding-left: 150px;
     padding-right: 150px;
@@ -93,7 +99,7 @@ h1 {
 .product-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .product h2 {
@@ -106,6 +112,9 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    padding: 25px;
+    border: 4px #F9E79F solid;
+    border-radius: 8px;
 }
 
 .text {
