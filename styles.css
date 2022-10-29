@@ -152,21 +152,28 @@ h1 {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
     justify-content: center;
+    flex-direction: column;
 }
 
 .stock-container {
     background-color: #F9E79F;
     border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    gap: 150px;
+}
+
+.stock-wrapper {
+    display: flex;
+    flex-direction: column;
+
 }
 
 button {
