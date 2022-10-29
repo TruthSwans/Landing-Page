@@ -3,11 +3,9 @@
 body {
     font-family: Cormorant, 'Courier New', Courier, monospace, sans-serif;
     height: 100vh;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    margin: 0;
 }
 
 .header, 
@@ -49,12 +47,12 @@ a {
 
 .hero-main {
     background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 25px;
-    padding-bottom: 25px;
     justify-content: space-between;
     border: 4px #F9E79F solid;
     border-radius: 8px;
@@ -66,8 +64,8 @@ a {
     display: flex;
     flex: auto;
     flex-direction: column;
-    padding: 10px;
     flex-wrap: wrap;
+    padding: 10px;
     max-width: 300px;
     font-size: 20px;
 }
@@ -148,10 +146,10 @@ h1 {
 
 .stock-alert {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     justify-content: center;
     gap: 25px;
 }
@@ -159,12 +157,12 @@ h1 {
 .stock-container {
     background-color: #F9E79F;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    display: flex;
-    justify-content: space-between;
     gap: 150px;
 }
 
